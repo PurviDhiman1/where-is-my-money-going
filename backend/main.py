@@ -18,15 +18,8 @@ from pdfminer.layout import LTTextContainer, LTTextLineHorizontal, LTChar
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-UPLOAD_DIR = os.path.join(
-    BASE_DIR,
-    "uploads"
-)
-
-os.makedirs(
-    UPLOAD_DIR,
-    exist_ok=True
-)
+UPLOAD_DIR = "/tmp/uploads"
+os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 DB_PATH = os.path.join(
     BASE_DIR,
