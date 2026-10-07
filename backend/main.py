@@ -21,10 +21,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 UPLOAD_DIR = "/tmp/uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-DB_PATH = os.path.join(
-    BASE_DIR,
-    "finance.db"
-)
+DB_PATH = "/tmp/finance.db"
 
 
 # ============================================================
