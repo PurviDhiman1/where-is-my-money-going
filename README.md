@@ -8,7 +8,7 @@ The application is designed around **local financial analysis**, keeping uploade
 
 ---
 
-Live: where-is-my-money-going-sable.vercel.app
+LIVE:   where-is-my-money-going-sable.vercel.app
 
 ---
 
